@@ -1,15 +1,33 @@
 {
     "units": {
       "Royal Naboo": {
-        "Commander": [],
+        "Commander": [
+            {
+                "name": "Sheev Palpatine",
+                "title": "Senator of Naboo",
+                "image": "https://res.cloudinary.com/tabletopadmiral/image/upload/v1661481108/unitcards/pflgp3betad7ithdnv2d.png",
+                "size": "small",
+                "type": "trooper",
+                "points": 80,
+                "upgrades":{
+                    "Command":2
+                },
+                "minis":[
+                    {
+                        "mesh":"http://cloud-3.steamusercontent.com/ugc/785234540541565714/71E1936EB657F4BC1074EB740BC9AA0531A130AC/",
+                        "diffuse":"http://cloud-3.steamusercontent.com/ugc/785234540541565804/0EB3EBFD318678DBE5B7C83B39A31DC8AB3376B6/"
+                    }
+                ]
+            }
+        ],
         "Operative": [],
         "Corps": [
             {
                 "name":"Palace Guard",
-                "image": "https://cdn.discordapp.com/attachments/528002177516568596/1006325900285071370/Tusken_Raider_Unit_Card.png",
+                "image": "https://cdn.discordapp.com/attachments/832711359283855410/1012967367107694612/RN_palace_guard.png",
                 "size": "small",
                 "type": "trooper",
-                "points": "54",
+                "points": 54,
                 "upgrades":{
                     "Heavy Weapon": 1,
                     "Personnel": 1,
@@ -27,7 +45,7 @@
                       },
                       {
                         "mesh": "http://cloud-3.steamusercontent.com/ugc/1790764668904351744/7FD86C4567269FC11BCA8F8F1376CBF26BCD78B8/",
-                        "diffuse": "http://cloud-3.steamusercontent.com/ugc/1752483394081074147/DC538AD89AF685C1102576C82D5A8ACEB6AD1FD6/"
+                        "diffuse": "http://cloud-3.steamusercontent.com/ugc/1790764668904324731/B4571DEA26F1504DD02405E02658075935FD6857/"
                       },
                       {
                         "mesh":"http://cloud-3.steamusercontent.com/ugc/1790764668904324277/0B737F077C9C71D510F387F034F1950392050CED/",
@@ -38,7 +56,23 @@
         ],
         "Special Forces": [],
         "Support": [],
-    "Heavy": []
+    "Heavy": [
+        {
+            "name": "N1 Starfighter",
+            "image":"https://preview.redd.it/pbjqvno1ymk21.jpg?auto=webp&s=2685641e0de381ecc641af81a8247cade3ec23c3",
+            "size": "large",
+            "type": "Repulsor Vehicle",
+            "upgrades":{
+                "Pilot":1
+            },
+            "minis": [
+                {
+                    "mesh":"http://cloud-3.steamusercontent.com/ugc/1790764668900933857/7DF7CECC957ADB497F9172908ACA8FB03ABD5F89/",
+                    "diffuse":"http://cloud-3.steamusercontent.com/ugc/1790764668900942808/E10645AF9595A81B98EE0D6ABA136FF780E3E531/"
+                }
+            ]
+        }
+    ]
 
   }
 },    
