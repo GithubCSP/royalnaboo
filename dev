@@ -1,15 +1,33 @@
 {
     "units": {
       "Royal Naboo": {
-        "Commander": [],
+        "Commander": [
+            {
+                "name": "Sheev Palpatine",
+                "title": "Senator of Naboo",
+                "image": "https://res.cloudinary.com/tabletopadmiral/image/upload/v1661481108/unitcards/pflgp3betad7ithdnv2d.png",
+                "size": "small",
+                "type": "trooper",
+                "points": 80,
+                "upgrades":{
+                    "Command":2
+                },
+                "minis":[
+                    {
+                        "mesh":"",
+                        "diffuse":""
+                    }
+                ]
+            }
+        ],
         "Operative": [],
         "Corps": [
             {
                 "name":"Palace Guard",
-                "image": "https://cdn.discordapp.com/attachments/832711359283855410/1012963116583223297/RN_palace_guard_-_Copy.png",
+                "image": "https://cdn.discordapp.com/attachments/832711359283855410/1012967367107694612/RN_palace_guard.png",
                 "size": "small",
                 "type": "trooper",
-                "points": "54",
+                "points": 54,
                 "upgrades":{
                     "Heavy Weapon": 1,
                     "Personnel": 1,
@@ -38,7 +56,23 @@
         ],
         "Special Forces": [],
         "Support": [],
-    "Heavy": []
+    "Heavy": [
+        {
+            "name": "N1 Starfighter",
+            "image":"https://preview.redd.it/pbjqvno1ymk21.jpg?auto=webp&s=2685641e0de381ecc641af81a8247cade3ec23c3",
+            "size": "large",
+            "type": "Repulsor Vehicle",
+            "upgrades":{
+                "Pilot":1
+            },
+            "minis": [
+                {
+                    "mesh":"http://cloud-3.steamusercontent.com/ugc/1790764668900933857/7DF7CECC957ADB497F9172908ACA8FB03ABD5F89/",
+                    "diffuse":"http://cloud-3.steamusercontent.com/ugc/1790764668900942808/E10645AF9595A81B98EE0D6ABA136FF780E3E531/"
+                }
+            ]
+        }
+    ]
 
   }
 },    
@@ -62,7 +96,7 @@
       "Training": []
     },
     "commands": {
-      "Tusken Tribe": [
+      "Naboo Defense": [
         {
           "name": "WIP",
           "image": "http://cloud-3.steamusercontent.com/ugc/1776099479278110637/7EF1FEF7DCEB65C84A89E72110F107932A7CE783/",
