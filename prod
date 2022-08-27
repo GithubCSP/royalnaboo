@@ -62,6 +62,7 @@
             "image":"https://preview.redd.it/pbjqvno1ymk21.jpg?auto=webp&s=2685641e0de381ecc641af81a8247cade3ec23c3",
             "size": "large",
             "type": "Repulsor Vehicle",
+            "points": 200,
             "upgrades":{
                 "Pilot":1
             },
@@ -116,19 +117,3 @@
     }
 }
 
-"name": "Darth Malgus",
-"title": "Prodigy of Battle",
-"image": "http://cloud-3.steamusercontent.com/ugc/1907856497762776429/CC95089667A9D5A671147AD1F22AA30B677C1CA6/",
-"size": "small",
-"type": "Trooper",
-"points": 200,
-"speed": 2,
-"upgrades": {
-  "Force": 3,
-  "Training": 1
-},
-"minis": [
-  {
-    "mesh": "http://cloud-3.steamusercontent.com/ugc/1022824296871909914/CC551973C1E900C1153BB015BED7EE408646DF78/",
-    "diffuse": "http://cloud-3.steamusercontent.com/ugc/1752483394081074147/DC538AD89AF685C1102576C82D5A8ACEB6AD1FD6/"
-  }
