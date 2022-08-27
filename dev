@@ -1,0 +1,100 @@
+{
+    "units": {
+      "Royal Naboo": {
+        "Commander": [],
+        "Operative": [],
+        "Corps": [
+            {
+                "name":"Palace Guard",
+                "image": "https://cdn.discordapp.com/attachments/832711359283855410/1012963116583223297/RN_palace_guard_-_Copy.png",
+                "size": "small",
+                "type": "trooper",
+                "points": "54",
+                "upgrades":{
+                    "Heavy Weapon": 1,
+                    "Personnel": 1,
+                    "Gear": 1,
+                    "Grenades": 1
+                },
+                "minis": [
+                    {
+                        "mesh": "http://cloud-3.steamusercontent.com/ugc/1790764668904357846/CBD052D723C03939AF4A401768BF8E1CB6474685/",
+                        "diffuse": "http://cloud-3.steamusercontent.com/ugc/1790764668904324731/B4571DEA26F1504DD02405E02658075935FD6857/"
+                      },
+                      {
+                        "mesh": "http://cloud-3.steamusercontent.com/ugc/1790764668904351744/7FD86C4567269FC11BCA8F8F1376CBF26BCD78B8/",
+                        "diffuse": "http://cloud-3.steamusercontent.com/ugc/1790764668904324731/B4571DEA26F1504DD02405E02658075935FD6857/"
+                      },
+                      {
+                        "mesh": "http://cloud-3.steamusercontent.com/ugc/1790764668904351744/7FD86C4567269FC11BCA8F8F1376CBF26BCD78B8/",
+                        "diffuse": "http://cloud-3.steamusercontent.com/ugc/1790764668904324731/B4571DEA26F1504DD02405E02658075935FD6857/"
+                      },
+                      {
+                        "mesh":"http://cloud-3.steamusercontent.com/ugc/1790764668904324277/0B737F077C9C71D510F387F034F1950392050CED/",
+                        "diffuse": "http://cloud-3.steamusercontent.com/ugc/1790764668904324731/B4571DEA26F1504DD02405E02658075935FD6857/"
+                      }
+                ]
+            }
+        ],
+        "Special Forces": [],
+        "Support": [],
+    "Heavy": []
+
+  }
+},    
+    "upgrades": {
+      "Armament": [],
+      "Command": [],
+      "Comms": [],
+      "Counterpart": [],
+      "Crew": [],
+      "Flaw": [],
+      "Force": [],
+      "Gear": [],
+      "Generator": [],
+      "Grenades": [],
+      "Hardpoint": [],
+      "Heavy Weapon": [],
+      "Ordnance": [],
+      "Personnel": [],
+      "Pilot": [],
+      "Programming": [],
+      "Training": []
+    },
+    "commands": {
+      "Tusken Tribe": [
+        {
+          "name": "WIP",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1776099479278110637/7EF1FEF7DCEB65C84A89E72110F107932A7CE783/",
+          "pip": 1
+        },
+        {
+          "name": "WIP",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1907856497762777364/16DA335B57C19171DE80E4A811AF55899F2F45F7/",
+          "pip": 2
+        },
+        {
+          "name": "WIP",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1776099479278110292/436DDD7EE789790446C0C4DB7F79A24843F7273A/",
+          "pip": 3
+        }
+      ]
+    }
+}
+
+"name": "Darth Malgus",
+"title": "Prodigy of Battle",
+"image": "http://cloud-3.steamusercontent.com/ugc/1907856497762776429/CC95089667A9D5A671147AD1F22AA30B677C1CA6/",
+"size": "small",
+"type": "Trooper",
+"points": 200,
+"speed": 2,
+"upgrades": {
+  "Force": 3,
+  "Training": 1
+},
+"minis": [
+  {
+    "mesh": "http://cloud-3.steamusercontent.com/ugc/1022824296871909914/CC551973C1E900C1153BB015BED7EE408646DF78/",
+    "diffuse": "http://cloud-3.steamusercontent.com/ugc/1752483394081074147/DC538AD89AF685C1102576C82D5A8ACEB6AD1FD6/"
+  }
